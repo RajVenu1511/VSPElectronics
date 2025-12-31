@@ -20,5 +20,5 @@
     <polygon points="-15,-5 15,-5 0,25" fill="#ff4444" opacity="0.3"/>
     <text x="0" y="18" font-family="Arial" font-size="20" fill="#fff" text-anchor="middle" font-weight="bold">!</text>
   </g>
-  <text x="150" y="260" font-family="Arial, sans-serif" font-size="18" fill="#A327F5" text-anchor="middle" font-weight="bold">Bonka Batteries</text>
+  <text x="150" y="260" font-family="Arial, sans-serif" font-size="18" fill="#0066cc" text-anchor="middle" font-weight="bold">Bonka Batteries</text>
 </svg>

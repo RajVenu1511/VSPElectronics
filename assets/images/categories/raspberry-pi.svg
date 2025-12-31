@@ -20,5 +20,5 @@
     <!-- SD card slot -->
     <rect x="-70" y="15" width="10" height="20" fill="#333" rx="1"/>
   </g>
-  <text x="150" y="260" font-family="Arial, sans-serif" font-size="18" fill="#A327F5" text-anchor="middle" font-weight="bold">Raspberry Pi Boards</text>
+  <text x="150" y="260" font-family="Arial, sans-serif" font-size="18" fill="#0066cc" text-anchor="middle" font-weight="bold">Raspberry Pi Boards</text>
 </svg>

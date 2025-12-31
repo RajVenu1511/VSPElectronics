@@ -2,9 +2,20 @@
 <html lang="en" data-critters-container>
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self';
+    script-src 'self' 'unsafe-inline' 'unsafe-eval' https://accounts.google.com https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ https://smtpjs.com https://cdnjs.cloudflare.com;
+    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com;
+    img-src 'self' data: https: blob:;
+    font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com;
+    connect-src 'self' https://accounts.google.com https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ https://www.agarwalelectronics.com;
+    frame-src https://accounts.google.com https://www.google.com/recaptcha/;
+    child-src https://accounts.google.com https://www.google.com/recaptcha/;
+  ">
   <title>VSP Electronics - Drone & Robotics Components</title>
-  <base href="/VSPElectronics/">
+  <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,10 +25,13 @@
   <!-- Google Sign-In SDK -->
   <script src="https://accounts.google.com/gsi/client" async defer></script>
   
+  <!-- Google reCAPTCHA v2 Script -->
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  
   <!-- SMTP.js for Email Sending -->
   <script src="https://smtpjs.com/v3/smtp.js"></script>
-<style>*{margin:0;padding:0;box-sizing:border-box}:root{--primary-brown:#A327F5;--dark-brown:#5a3a1f;--light-brown:#8b6842;--bg-cream:#f5f3ef;--bg-light:#fafafa;--text-dark:#333;--text-gray:#666;--text-light:#999;--border-light:#e0d9cf;--blue-link:#0066cc;--red-accent:#ff4444;--green-success:#4caf50;--orange-warning:#ff9800}body{font-family:Segoe UI,Tahoma,Geneva,Verdana,sans-serif;font-size:14px;line-height:1.6;color:var(--text-dark);background-color:#fff}</style><link rel="stylesheet" href="styles.6a8110ba37829596.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.6a8110ba37829596.css"></noscript></head>
+<style>*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}:root{--primary-brown:#0066cc;--dark-brown:#1D4ED8;--light-brown:#60A5FA;--bg-cream:#f5f3ef;--bg-light:#fafafa;--text-dark:#333;--text-gray:#666;--text-light:#999;--border-light:#e0d9cf;--blue-link:#0066cc;--red-accent:#ff4444;--green-success:#4caf50;--orange-warning:#ff9800;--spacing-xs:4px;--spacing-sm:8px;--spacing-md:12px;--spacing-lg:16px;--spacing-xl:24px;--spacing-2xl:32px;--spacing-3xl:40px;--spacing-4xl:48px;--radius-sm:4px;--radius-md:8px;--radius-lg:12px;--radius-full:9999px;--shadow-sm:0 1px 2px 0 rgba(0, 0, 0, .05);--shadow-md:0 4px 6px -1px rgba(0, 0, 0, .1);--shadow-lg:0 10px 15px -3px rgba(0, 0, 0, .1);--shadow-xl:0 20px 25px -5px rgba(0, 0, 0, .1);--breakpoint-sm:640px;--breakpoint-md:768px;--breakpoint-lg:1024px;--breakpoint-xl:1280px;--breakpoint-2xl:1536px}body{font-family:Segoe UI,-apple-system,BlinkMacSystemFont,sans-serif;font-size:16px;line-height:1.6;color:var(--text-dark);background-color:#fff;overflow-x:hidden}:root{--h1-size:48px;--h2-size:32px;--h3-size:24px;--h4-size:20px;--lead-size:18px}@media (max-width: 768px){:root{--h1-size:32px;--h2-size:24px;--h3-size:18px;--h4-size:16px;--lead-size:14px}}@media (max-width: 480px){:root{--h1-size:24px;--h2-size:20px;--h3-size:16px;--h4-size:14px;--lead-size:13px}}</style><link rel="stylesheet" href="styles.8c4c747b314b7a94.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.8c4c747b314b7a94.css"></noscript></head>
 <body>
   <app-root></app-root>
-<script src="runtime.f63adab1e3b8ba92.js" type="module"></script><script src="polyfills.cdc46f15cb72fb1e.js" type="module"></script><script src="main.42ef2f1b2516e146.js" type="module"></script></body>
+<script src="runtime.70abce5b6c6673d4.js" type="module"></script><script src="polyfills.8bb65e0218c17b7a.js" type="module"></script><script src="main.59c02d1cef12f91b.js" type="module"></script></body>
 </html>
